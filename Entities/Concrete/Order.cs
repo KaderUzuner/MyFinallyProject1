@@ -7,7 +7,7 @@ namespace Entities.Concrete
 {
     public class Order:IEntity
     {
-        public int Orderıd { get; set; }
+        public int OrderId { get; set; }
         public int CustomerId { get; set; }
         public int EmployeeId { get; set; }
         public DateTime OrderDate { get; set; }
